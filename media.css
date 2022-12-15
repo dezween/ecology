@@ -1,0 +1,85 @@
+@media (max-width: 700px) {
+  .menu {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+  }
+  .logo {
+    margin: 15px;
+  }
+  .nav {
+    flex-direction: row;
+    margin: 13px 0;
+  }
+  .nav-link {
+    margin: 0 25px;
+  }
+  .logo h3 {
+    display: none;
+  }
+  .planet-facts {
+    flex-direction: column;
+    margin: 0;
+  }
+  .header {
+    margin: 0;
+  }
+  .header-title {
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  .planet-facts-list {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .planet-facts-list li {
+    margin-top: 10px;
+  }
+  .planet-facts-left {
+    width: 100%;
+  }
+  .planet-facts-right {
+    width: 100%;
+  }
+
+  .gallery-content {
+    flex-direction: column;
+  }
+  .gallery {
+    margin: 0;
+  }
+  .gallery-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .about-content-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .about {
+    margin: 0;
+  }
+  .about-content {
+    flex-direction: column;
+  }
+  .about-content img {
+  }
+  .ecology-facts {
+    flex-direction: column;
+  }
+  .ecology {
+    margin: 0;
+  }
+  .ecology-facts-left {
+    width: 100%;
+  }
+  .ecology-facts-right {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .sp {
+    width: 90%;
+  }
+}
